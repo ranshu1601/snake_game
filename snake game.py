@@ -1,10 +1,10 @@
-import pygame
-import time
+import pygame    #install pygame before 
+import time    
 import random
  
 pygame.init()
  
-white = (255, 255, 255)
+white = (255, 255, 255)            
 yellow = (255, 255, 102)
 black = (0, 0, 0)
 red = (213, 50, 80)
@@ -15,7 +15,7 @@ dis_width = 600
 dis_height = 400
  
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game by Anshu')
  
 clock = pygame.time.Clock()
  
